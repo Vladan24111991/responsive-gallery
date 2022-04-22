@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .wrapper {
+            margin:0 30px;
+            
+        }
+        .thumb {
+            height:auto;
+           
+            border-radius: 10px;
+            border: solid black 1px;
+        }
+        img {
+        max-width: 100%;
+        display: block;
+        background-color:rgb(114, 100, 241);
+        border-radius: 10px 10px 0 0;
+        }
+        .container p {
+            text-align:center;
+            margin: 0;
+            padding: 5px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, auto);
+            grid-template-rows: repeat(2, auto);
+            gap: 25px;
+            margin: 15px 0;
+        }
+        @media  screen and (min-width: 340px) {
+            .container {
+                grid-template-columns: repeat(1, auto);
+            }
+            }
+        @media  screen and (min-width: 780px) {
+            .container {
+                grid-template-columns: repeat(3, auto);
+                grid-template-rows: repeat(4, auto);
+            }
+            }    
+        @media  screen and (min-width: 1280px) {
+            .container {
+                grid-template-columns: repeat(5, auto);
+                grid-template-rows: repeat(2, auto);
+            }
+            }    
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <h1>Gallery Heading</h1>
+    <div class="container">
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>Naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    <div class="thumb">
+        <img src="placeholder-image.png.png" alt="slika">
+        <p>naslov slike</p>
+    </div>
+    
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil inventore voluptatibus labore. Praesentium deleniti aliquid esse unde laboriosam repudiandae repellat. Nulla debitis officia corporis dolore voluptates. Porro ratione veritatis repellat nulla, dolore voluptatem aliquid! Illo rerum ullam sint. Dicta laborum blanditiis voluptatum labore? Ipsam recusandae incidunt eaque quod. Dolorum praesentium mollitia sequi ipsam quis excepturi totam quos animi sunt esse. ipsum, dolor sit amet consectetur adipisicing elit. Provident tempore, quasi totam minima voluptatem debitis officia nisi. Vel doloremque dolor eius nesciunt, consequuntur laudantium magni esse ab sit quos accusamus harum cum! Autem in aperiam dolore dolor ipsum molestiae dolorum?</p>
+</div>
+</body>
+</html>
